@@ -4,14 +4,12 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Aurol Studios, LLC.
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`We help startups that we think are cool to grow simple, fast and at low cost. We’ve worked with many YC, VC-backed startups. 
+        We only work with B2C companies. We’re not taking many deals at the moment, but you can send us an email
+        about what you're working on, and if we think it's something cool, we will reply back :) `}
       </p>
       <div className="my-8">
         <BlogPosts />

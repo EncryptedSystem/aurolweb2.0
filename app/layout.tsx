@@ -11,17 +11,20 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Aurol Studios, LLC.',
+    template: '%s | aurol.net',
   },
-  description: 'This is my portfolio.',
+  description: 'We help startups that we think are cool to grow.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Aurol Studios, LLC.',
+    description: 'We help startups that we think are cool to grow.',
     url: baseUrl,
     siteName: 'My Portfolio',
     locale: 'en_US',
     type: 'website',
+  },
+  icons: {
+    shortcut: '/favicon.png',
   },
   robots: {
     index: true,
