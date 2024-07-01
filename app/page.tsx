@@ -7,9 +7,8 @@ export default function Page() {
         Aurol Studios, LLC.
       </h1>
       <p className="mb-4">
-        {`We help startups that we think are cool to grow simple, fast and at low cost. We’ve worked with many YC, VC-backed startups. 
-        We only work with B2C companies. We’re not taking many deals at the moment, but you can send us an email
-        about what you're working on, and if we think it's something cool, we will reply back :) `}
+        {`Aurol Studios is a media company. We make and buy social businesses.
+        We help others with their projects (send an email).  Btw we also share resources for your own projects.`}
       </p>
       <div className="my-8">
         <BlogPosts />
